@@ -35,10 +35,10 @@
 <br />
 <p align="left">
 
-  <h1 align="left">IMDb Sentiment Analysis RNN</h1>
+  <h1 align="left">Poem Generator with RNN</h1>
 
   <p align="left">
-    Sentiment Analysis model on IMDb Reviews Dataset using an RNN.
+    Generate poems of different styles by providing a seed text and number of words to be generated.
     <br />
     <a href="https://github.com/soundarzozm/Poem_Generator"><strong>Explore the docs »</strong></a>
     <br />
@@ -73,7 +73,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a **Deep Learning Natural Language Processing** project using [IMDb Reviews Dataset](https://www.dropbox.com/s/bjk9tydkqrza8p8/IMDb_Reviews.csv?dl=1).<br>
+This is a **Deep Learning Natural Language Processing** project using:
+1.    [Shakesperian Sonnets](https://github.com/soundarzozm/Poem_Generator/blob/master/sonnets.txt)
+2.    [Irish Lyrics](https://github.com/soundarzozm/Poem_Generator/blob/master/irish-lyrics-eof.txt)
+<br>
 This project consists of *data processing*, *model definition* and *model training and evaluation* using tensorflow. 
 
 
@@ -81,8 +84,7 @@ This project consists of *data processing*, *model definition* and *model traini
 
 * [Matplotlib](https://matplotlib.org/)
 * [Tensorflow](https://www.tensorflow.org/)
-* [Sci-Kit Learn](https://scikit-learn.org/)
-* [Pandas](https://pandas.pydata.org/)
+* [NumPy](https://numpy.org/)
 
 
 
@@ -117,12 +119,12 @@ It is an iterative process until required performance is obtained.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This model can be used to analyse the sentiment in a given piece of text. This has its various applications such as:<br>
-* Spam Classification
-* Business Analytics
-* Social Monitoring
-* Market Research
-* Product Analysis
+This model can be used to generate text that is meaningful (Natural Language Processing). This has its various applications such as:<br>
+* Auto-completion
+* Auto-correction
+* Article Generation
+* Documentation
+* Computer-assisted Coding
 
 
 <!-- ROADMAP -->
@@ -165,7 +167,7 @@ Project Link: [https://github.com/soundarzozm/Poem_Generator](https://github.com
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Andrew Maas](http://ai.stanford.edu/~amaas/) for providing the dataset for public use.
+* [Laurence Moroney](http://www.laurencemoroney.com/) for providing the datasets for public use.
 
 
 
